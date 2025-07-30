@@ -37,3 +37,24 @@ php artisan migrate
 ```
 php artisan serve
 ```
+
+-   Command to Create Controller
+
+```
+php artisan make:controller ControllerName
+```
+
+-   Index Method in Controller
+
+```
+public function index()
+{
+    return view('index');
+}
+```
+
+-   Connect Controller with Route Code/Statement
+
+```
+route::get('/', [HomeController::class, 'index']);
+```
