@@ -1,0 +1,7 @@
+1. Creating New Laravel Project:
+
+composer create-project laravel/laravel ProjectName
+
+2. Running Laravel on Localhost
+
+php artisan serve
