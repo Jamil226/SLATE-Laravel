@@ -25,3 +25,15 @@ DB_CONNECTION=mysql
 ```
 DB_DATABASE=yourdbname
 ```
+
+-   Run the Following Terminal Command in Your Project's Terminal
+
+```
+php artisan migrate
+```
+
+-   Run the Project
+
+```
+php artisan serve
+```
