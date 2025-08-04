@@ -1,40 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>Welcome Page</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-</head>
-
-<body>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    <h1>
-        Welcome to my website.
-
-    </h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aperiam libero eligendi recusandae nemo debitis
-        molestias saepe quae quas eius vitae fugit laudantium, amet quidem reprehenderit nihil. Id, quia velit!
-    </p>
-
-    <h3>
-        <a href="{{ url('/about') }}">
-            Go to about us Page
-        </a>
-    </h3>
+@extends('layouts.app')
+@section('title', 'Home')
+@section('main-container')
+    <main>
+        <div class="container-fluid p-3 bg-success text-white">
+            Home Page
+        </div>
+        <div class="container">
+            <h1>
+                Hello World Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores est recusandae labore
+                aspernatur voluptas doloremque ex deleniti odio, iure suscipit totam eligendi repellat eos vitae fugit sint
+                cupiditate? Esse, nobis?
+            </h1>
+        </div>
+        <h3>
+            <a href="{{ url('/about') }}">
+                Go to about us Page
+            </a>
+        </h3>
+        <h3>
+            <a href="{{ route('contact') }}">
+                Go to Contact Us Page
+            </a>
+        </h3>
+    </main>
 
 
-</body>
 
-</html>
+@endsection

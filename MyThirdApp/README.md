@@ -58,3 +58,19 @@ public function index()
 ```
 route::get('/', [HomeController::class, 'index']);
 ```
+
+-   SEO Meta Tags and Open Graph Tags (Prompt)
+    Introduction of your business. Then write as:
+    I need SEO friendly meta tags, open graph tags and twitter tags.
+
+-   Components
+
+    -   Header
+
+    -   Footer
+
+    -   Main Section
+
+    -   Section Title
+
+    -   Connectivity with main pages

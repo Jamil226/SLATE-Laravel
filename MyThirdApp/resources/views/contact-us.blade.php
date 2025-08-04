@@ -1,9 +1,9 @@
 @extends('layouts.app');
-@section('title', 'About')
+@section('title', 'Contact')
 @section('main-container')
     <main>
         <div class="container-fluid p-3 bg-success text-white">
-            About Page
+            Contact Page
         </div>
         <h3>
             <a href="{{ url('/about') }}">
